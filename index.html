@@ -3,32 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Thomas Evan Abbott</title>
-    <meta name="description" content="I am a 3rd year mechanical engineering student at Western University located in London Ontario. My hobbies include aviation, 3D Modeling and marksmanship.">
-    <meta name="keyword" content="Thomas Abbott, Thomas, Abbott, Engineering, Portfolio, Student, Intern, Pilot, Internship, Western University">
+    <meta name="description"
+          content="I am a 3rd year mechanical engineering student at Western University located in London Ontario. My hobbies include aviation, 3D Modeling and marksmanship.">
+    <meta name="keyword"
+          content="Thomas Abbott, Thomas, Abbott, Engineering, Portfolio, Student, Intern, Pilot, Internship, Western University">
     <meta name="author" content="Thomas Abbott">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="css/all.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="dist/assets/owl.theme.default.css" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Thomas Abbott</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navTop" aria-controls="navTop" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="index.html">Intro</a>
-            <a class="nav-item nav-link" href="projects.html">Projects</a>
-            <a class="nav-item nav-link" href="hobbies.html">Hobbies</a>
-            <a class="nav-item nav-link" href="awards.html">Awards / Certifications</a>
-        </div>
-    </div>
-</nav>
+
 <div class="container">
-    <div class="row offset-md-2">
-        <div class="col-4">
+    <div class="row">
+        <div class="col-4 ">
             <picture>
-                <img class="col p-0 m-0" src="images/me.jpg" alt="Thomas Evan Abbott" />
+                <img class="col p-0 m-0 d-flex justify-content-center" src="images/me.jpg" alt="Thomas Evan Abbott"/>
             </picture>
         </div>
         <div class="col-8 align-self-center m-0 p-0">
@@ -36,21 +30,117 @@
             <p>3rd Year Engineering Student<br/>
                 Western University
             </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            
+            <p>As an engineering student and technology enthusiast, I love to explore new projects and solve problems.
+                Along with my various hobbies and skills, I'd like to share my experiences in design.</p>
+            <a class="text-dark" href="https://www.instagram.com/abbott242_/"><i class="fab fa-instagram fa-2x"></i></a>
+            <a class="text-dark" href="https://www.facebook.com/Abbott242"><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a class="text-dark" href="https://www.linkedin.com/in/thomas-abbott-42a9265b/"><i
+                    class="fab fa-linkedin fa-2x"></i></a>
         </div>
     </div>
 </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Thomas Abbott</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navTop" aria-controls="navTop"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="index.html">Intro</a>
+                <a class="nav-item nav-link" href="projects.html">Projects</a>
+                <a class="nav-item nav-link" href="hobbies.html">Hobbies</a>
+                <a class="nav-item nav-link" href="awards.html">Awards / Certifications</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<section id="projects">
+    <div class="container mt-3 pb-5">
+    <h2>My Projects</h2>
+    <div class="owl-carousel owl-theme">
+        <div class="item card">
+            <model-viewer class="card-img-top" src="models/ms.glb" alt="A Monitor Stand." auto-rotate
+                          camera-controls interaction-prompt="none"></model-viewer>
+            <div class="card-body">
+                <h5 class="card-title">Monitor Stand</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">144x54 Bolster Size</li>
+                    <li class="list-group-item">16 inch Stroke, 15-30 Strokes per Minute</li>
+                    <li class="list-group-item">Decoiler - 24,000 lbs., 40 inch width capacity</li>
+                </ul>
+            </div>
+        </div>
+        <div class="item card">
+            <model-viewer class="card-img-top" src="models/on.glb" alt="An opal necklace." auto-rotate
+                          camera-controls></model-viewer>
+            <div class="card-body">
+                <h5 class="card-title">Opal Necklace</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">144x54 Bolster Size</li>
+                    <li class="list-group-item">16 inch Stroke, 15-30 Strokes per Minute</li>
+                    <li class="list-group-item">Decoiler - 24,000 lbs., 40 inch width capacity</li>
+                </ul>
+            </div>
+        </div>
+        <div class="item card">
+            <model-viewer class="card-img-top" src="models/si.glb" alt="A sight" auto-rotate
+                          camera-controls></model-viewer>
+            <div class="card-body">
+                <h5 class="card-title">Sights</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">144x54 Bolster Size</li>
+                    <li class="list-group-item">16 inch Stroke, 15-30 Strokes per Minute</li>
+                    <li class="list-group-item">Decoiler - 24,000 lbs., 40 inch width capacity</li>
+                </ul>
+            </div>
+        </div>
+        <div class="item card">
+            <model-viewer class="card-img-top" src="models/vg.glb" alt="A vertical grip" auto-rotate
+                          camera-controls></model-viewer>
+            <div class="card-body">
+                <h5 class="card-title">Vertical Grip</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">144x54 Bolster Size</li>
+                    <li class="list-group-item">16 inch Stroke, 15-30 Strokes per Minute</li>
+                    <li class="list-group-item">Decoiler - 24,000 lbs., 40 inch width capacity</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+<!-- Use it like any other HTML element -->
+<script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+<script src="dist/owl.carousel.min.js"></script>
 
-    <section id="about">
+<script>
+    $(document).ready(function() {
+        $('.owl-carousel').owlCarousel({
+            items: 3,
+            loop: false,
+            center: false,
+            mouseDrag: false,
+            margin: 10,
+            callbacks: true,
+            URLhashListener: true,
+            autoplayHoverPause: true,
+            startPosition: 'URLHash',
+            nav: false
+        });
+    })
 
-    </section>
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
-    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-    <!-- Use it like any other HTML element -->
-    <model-viewer src="models/undefined.glb" alt="M20M Drawer" auto-rotate camera-controls></model-viewer>
+</script>
 </body>
 </html>
