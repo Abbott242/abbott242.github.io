@@ -56,3 +56,7 @@
 .scroll-down {
 
 }
+
+model-viewer {
+    height: 30em;
+}
