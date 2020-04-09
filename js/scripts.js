@@ -1,43 +1,42 @@
-var teaProjects = {
+const teaProjects = {
     drawer: {
         title: "Drawer",
         model: "models/drawer.glb",
-        images: [],
-        text: "An opportunity was created after an obsolete radio was removed from my father’s Mooney M20M plane. The now-empty slot in the avionics bay was a hazard for debris getting dropped inside, and would normally be covered up with a simple plate. However in order to put the space to good use, I had the idea to create a small drawer which could be used to store small objects. Snacks, pens, phones, and wallets would have a convenient place to go - within reach, but out of the way in the compact cockpit. The first issue to solve was heating. During operation, the avionics bay would heat tremendously, beyond the operating temperature of most normal 3D-printing filaments. Therefore, I decided to use a nylon alloy filament, PolyMaker’s “CoPa”. Though this added expense and complications during printing, the operating temperature of 180C was more than enough to take the heat during use.\n"
+        images: ["https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg", "https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg", "https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"],
+        text: "<p>An opportunity was created after an obsolete radio was removed from my father’s Mooney M20M plane. The now-empty slot in the avionics bay was a hazard for debris getting dropped inside, and would normally be covered up with a simple plate. However in order to put the space to good use, I had the idea to create a small drawer which could be used to store small objects. Snacks, pens, phones, and wallets would have a convenient place to go - within reach, but out of the way in the compact cockpit. The first issue to solve was heating. During operation, the avionics bay would heat tremendously, beyond the operating temperature of most normal 3D-printing filaments. Therefore, I decided to use a nylon alloy filament, PolyMaker’s “CoPa”. Though this added expense and complications during printing, the operating temperature of 180C was more than enough to take the heat during use.</p>"
     },
     ironSights: {
         title: "Iron Sights",
         model: "models/si.glb",
         images: ["https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg", "https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg", "https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"],
-        text: "A member of my University's shooting club had a dilemma. He had a new rifle, but no scope to mount to it. As this particular model of rifle was not manufactured with iron sights included, it would be impossible to shoot until some sighting solution was found. I therefore decided to work with him to design and 3D-print a set of “iron” sights for the rifle, which would provide a stopgap solution until a scope was bought. After brainstorming design criteria and noting critical measurements, I created prototypes in SolidWorks to print and test. The project took around two months, as numerous attempts were made in order to meet the tight tolerances of the rifle and incorporate new ideas. \n" +
-            "The final design is composed of three major sections, with a few smaller parts such as nuts and bolts making them up. All plastic components were printed using EcoTough PLA filament, which proved to be more than sufficient for the task. The appearance of the sights is styled after the WW-II era Type 99 Arisaka rifle (a personal preference), using a front blade combined with a swappable rear aperture/notch to aim. While the front sight is tightened to the sling swivel of the rifle and remains immovable, the rear sight is adjustable for both windage and elevation (horizontal and vertical motion). With a hex key, the sight can therefore be adjusted to properly zero the rifle and compensate for changes in distance to the target. \n" +
-            "During a field test, the sights worked as intended, hitting targets up to to 100m away. While not as accurate as a scope, the sights serve their temporary purpose well. Most importantly, this project provided a fun application for 3D design, and a good opportunity to practice.\n"
+        text: "<p>A member of my University's shooting club had a dilemma. He had a new rifle, but no scope to mount to it. As this particular model of rifle was not manufactured with iron sights included, it would be impossible to shoot until some sighting solution was found. I therefore decided to work with him to design and 3D-print a set of “iron” sights for the rifle, which would provide a stopgap solution until a scope was bought. After brainstorming design criteria and noting critical measurements, I created prototypes in SolidWorks to print and test. The project took around two months, as numerous attempts were made in order to meet the tight tolerances of the rifle and incorporate new ideas.</p>" +
+            "<p>The final design is composed of three major sections, with a few smaller parts such as nuts and bolts making them up. All plastic components were printed using EcoTough PLA filament, which proved to be more than sufficient for the task. The appearance of the sights is styled after the WW-II era Type 99 Arisaka rifle (a personal preference), using a front blade combined with a swappable rear aperture/notch to aim. While the front sight is tightened to the sling swivel of the rifle and remains immovable, the rear sight is adjustable for both windage and elevation (horizontal and vertical motion). With a hex key, the sight can therefore be adjusted to properly zero the rifle and compensate for changes in distance to the target.</p>" +
+            "<p>During a field test, the sights worked as intended, hitting targets up to to 100m away. While not as accurate as a scope, the sights serve their temporary purpose well. Most importantly, this project provided a fun application for 3D design, and a good opportunity to practice.</p>"
     },
     monitorStand: {
         title: "Monitor Stand",
         model: "models/ms.glb",
-        images: [],
+        images: ["https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg", "https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg", "https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"],
         text: ""
     },
     opalNecklace: {
         title: "Opal Necklace",
         model: "models/on.glb",
-        images: [],
+        images: ["https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg", "https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg", "https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"],
         text: ""
     },
     tourniquet: {
         title: "Tourniquet",
         model: "",
-        images: [],
+        images: ["https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg", "https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg", "https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"],
         text: ""
     },
     faceShields: {
         title: "Face Shields",
-        images: [],
+        images: ["https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg", "https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg", "https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"],
         model: "",
-        text: "The COVID-19 pandemic has been wreaking havoc on the world, particularly the healthcare system. Many essential medical devices are in short supply at the moment, and a large demand for replacements exists. While some items such as ventilators and masks require fairly complex facilities to produce, the flexible manufacturing provided by 3D printers can help to make simpler parts. Prusa Research designed a 3D-printable face shield which has seen somewhat widespread adoption when traditionally manufactured alternatives are no longer available. \n" +
-            "\n" +
-            "Therefore, when Inksmith LTD ran a donation drive in my area to collect parts for these face shields, I decided to try my hand at producing some. Using my Prusa MK3S and a Creality CR-10S 3D-printer over the course of a week, I spent most of my filament in constant printing. This was done using many different brands and plastics, including PLA, XT, and PETG. While each type required tweaking in order to optimize both print quality and speed, the result was enough parts for 60 functional face shields. Though certainly not ideal, once assembled and in the right hands they should provide a basic level of protection from the virus.\n"
+        text: "<p>The COVID-19 pandemic has been wreaking havoc on the world, particularly the healthcare system. Many essential medical devices are in short supply at the moment, and a large demand for replacements exists. While some items such as ventilators and masks require fairly complex facilities to produce, the flexible manufacturing provided by 3D printers can help to make simpler parts. Prusa Research designed a 3D-printable face shield which has seen somewhat widespread adoption when traditionally manufactured alternatives are no longer available.</p>" +
+            "<p>Therefore, when Inksmith LTD ran a donation drive in my area to collect parts for these face shields, I decided to try my hand at producing some. Using my Prusa MK3S and a Creality CR-10S 3D-printer over the course of a week, I spent most of my filament in constant printing. This was done using many different brands and plastics, including PLA, XT, and PETG. While each type required tweaking in order to optimize both print quality and speed, the result was enough parts for 60 functional face shields. Though certainly not ideal, once assembled and in the right hands they should provide a basic level of protection from the virus.</p>"
     }
 };
 
@@ -68,7 +67,7 @@ $('#exampleModal').on('show.bs.modal', function (event) {
         modal.find('.modal-body .col-5').append('<div class="card-background"><model-viewer class="card-img-top" src="'+ project['model'] + '" alt="' + project['title'] + '" auto-rotate camera-controls interaction-prompt="none"></model-viewer></div>')
     }
     modal.find('.modal-body .main-title').text(project['title']);
-    modal.find('.modal-body .main-text').text(project['text'])
+    modal.find('.modal-body .main-text').html(project['text'])
 });
 
 $("#exampleModal").on("hidden.bs.modal", function() {
@@ -115,14 +114,28 @@ $("#exampleModal").on("hidden.bs.modal", function() {
         '        </div>')
 });
 
+function getRandomInt(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+}
+
 $(document).ready(function() {
     var i;
+    let image;
+    let imageH;
+    let inum;
     for (i in teaProjects) {
-        $('.owl-carousel').append('<!--OWL Card Item-->' +
+        if (teaProjects[i]['model'].length === 0) {
+            inum = getRandomInt(teaProjects[i]['images'].length);
+            imageH = teaProjects[i]['images'][inum];
+            image = ('<img class="card-img-top" src="' + imageH + '" alt="' + teaProjects[i]['title'] + '" />');
+        }
+        else {
+            image = ('<model-viewer class="card-img-top" src="' + teaProjects[i]['model'] + '" alt="' + teaProjects[i]['title'] + '" auto-rotate\n' +
+            '                              camera-controls interaction-prompt="none"></model-viewer>\n')
+        }
+            $('.owl-carousel').append('<!--OWL Card Item-->' +
             '       <div class="item card">\n' +
-            '            <div class="card-background">\n' +
-            '                <model-viewer class="card-img-top" src="' + teaProjects[i]['model'] + '" alt="A Drawer" auto-rotate\n' +
-            '                              camera-controls interaction-prompt="none"></model-viewer>\n' +
+            '            <div class="card-background">\n' + image +
             '            </div>\n' +
             '            <div class="card-body">\n' +
             '                <h5 class="card-title">' + teaProjects[i]['title'] + '</h5>\n' +

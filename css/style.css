@@ -35,14 +35,13 @@ html {
 .owl-theme .custom-nav .owl-prev, .owl-theme .custom-nav .owl-next {
     position: absolute;
     height: 100px;
-    color: inherit;
     background: none !important;
     border: none;
     z-index: 100;
 }
 .owl-theme .custom-nav .owl-prev i, .owl-theme .custom-nav .owl-next i {
     font-size: 2.5rem;
-    color: #cecece;
+    color: rgba(0, 0, 0, .9);
 }
 .owl-theme .custom-nav .owl-prev {
     left: 0;
@@ -97,4 +96,14 @@ model-viewer {
 
 .card-background {
     background: linear-gradient(0deg, rgba(231,229,229,1) 0%, rgba(197,197,198,1) 48%, rgba(245,245,245,1) 100%);
+}
+.card-background {
+    object-fit: fill;
+    overflow: hidden;
+}
+
+img.card-img-top {
+    width: 548px;
+    height: 400px;
+    object-fit: cover;
 }
