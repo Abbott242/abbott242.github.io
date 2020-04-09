@@ -3,34 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <title>Thomas Evan Abbott</title>
-    <meta name="description" content="I am a 3rd year mechanical engineering student at Western University located in London Ontario. My hobbies include aviation, 3D Modeling and marksmanship.">
-    <meta name="keyword" content="Thomas Abbott, Thomas, Abbott, Engineering, Portfolio, Student, Intern, Pilot, Internship, Western University">
+    <meta name="description"
+          content="I am a 3rd year mechanical engineering student at Western University located in London Ontario. My hobbies include aviation, 3D Modeling and marksmanship.">
+    <meta name="keyword"
+          content="Thomas Abbott, Thomas, Abbott, Engineering, Portfolio, Student, Intern, Pilot, Internship, Western University">
     <meta name="author" content="Thomas Abbott">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="css/all.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="dist/assets/owl.theme.default.css" rel="stylesheet">
 </head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Thomas Abbott</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navTop" aria-controls="navTop" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="index.html">Intro</a>
-            <a class="nav-item nav-link" href="projects.html">Projects</a>
-            <a class="nav-item nav-link" href="hobbies.html">Hobbies</a>
-            <a class="nav-item nav-link" href="awards.html">Awards / Certifications</a>
+<body data-spy="scroll" target="#tea">
+<section class="bg-dark text-light">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6 mx-auto d-block d-none d-md-inline-block d-flex justify-content-center">
+            <div class="holder rounded-circle img-thumbnail align-middle d-none d-md-inline-block">
+            <picture>
+                <img class="col p-0 m-0 d-flex justify-content-center me-img" src="images/me.jpg" alt="Thomas Evan Abbott"/>
+            </picture>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 align-self-center pl-3">
+            <h1 class="header-title pl-0 ml-0 d-inline-block">Thomas Abbott</h1>
+            <h3 class="pl-md-3">3rd Year Engineering Student<br/>
+                Western University
+            </h3>
+            <div class="socials pl-md-3">
+                <a class="text-light" href="https://www.instagram.com/abbott242_/"><i class="fab fa-instagram fa-2x"></i></a>
+                <a class="text-light" href="https://www.facebook.com/Abbott242"><i class="fab fa-facebook-square fa-2x"></i></a>
+                <a class="text-light" href="https://www.linkedin.com/in/thomas-abbott-42a9265b/"><i
+                        class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+            <p class="pt-2 col-md-12 col-sm-12 col-lg-8">As an engineering student and technology enthusiast, I love to explore new projects and solve problems.
+                Along with my various hobbies and skills, I'd like to share my experiences in design.</p>
+        </div>
+    </div>
+</div>
+</section>
+<nav id="tea" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Thomas Abbott</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navTop" aria-controls="navTop"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="#projects">Projects</a>
+                <a class="nav-item nav-link" href="#hobbies">Hobbies</a>
+                <a class="nav-item nav-link" href="#awards">Awards / Certifications</a>
+                <a class="nav-item nav-link" href="#certifications">Certifications</a>
+            </div>
         </div>
     </div>
 </nav>
+<section id="projects">
+    <div class="container mt-3 pb-5">
+    <h2>My Projects</h2>
+        <div class="content">
+    <div class="owl-carousel owl-theme">
+        <div class="item card">
+            <model-viewer class="card-img-top" src="models/ms.glb" alt="A Monitor Stand." auto-rotate
+                          camera-controls interaction-prompt="none"></model-viewer>
+            <div class="card-body">
+                <h5 class="card-title">Monitor Stand</h5>
+                <p>Designed for .... made from... something something something...</p>
+            </div>
+        </div>
+        <div class="item card">
+            <model-viewer class="card-img-top" src="models/on.glb" alt="An opal necklace." auto-rotate
+                          camera-controls></model-viewer>
+            <div class="card-body">
+                <h5 class="card-title">Opal Necklace</h5>
+                <p></p>
+            </div>
+        </div>
+        <div class="item card">
+            <model-viewer class="card-img-top" src="models/si.glb" alt="A sight" auto-rotate
+                          camera-controls></model-viewer>
+            <div class="card-body">
+                <h5 class="card-title">Sights</h5>
+                <p></p>
+            </div>
+        </div>
+        <div class="item card">
+            <model-viewer class="card-img-top" src="models/vg.glb" alt="A vertical grip" auto-rotate
+                          camera-controls></model-viewer>
+            <div class="card-body">
+                <h5 class="card-title">Vertical Grip</h5>
+                <p></p>
+            </div>
+        </div>
+        </div>
+            <div class="owl-theme">
+                <div class="owl-controls">
+                    <div class="custom-nav owl-nav"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+<!-- Use it like any other HTML element -->
+<script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+<script src="dist/owl.carousel.min.js"></script>
 
-    <section id="about">
+<script>
+    $(document).ready(function() {
+        $('.owl-carousel').owlCarousel({
+            items: 3,
+            loop: false,
+            center: false,
+            mouseDrag: false,
+            margin: 10,
+            callbacks: true,
+            URLhashListener: true,
+            autoplayHoverPause: true,
+            startPosition: 'URLHash',
+            nav: false,
+            touchDrag: false,
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:true
+                },
+                600:{
+                    items:2,
+                    nav:false
+                },
+                1000:{
+                    items:3,
+                    loop:false,
+                    nav: true,
+                    navText: [
+                        '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                        '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+                    ],
+                    navContainer: '.content .custom-nav',
+                }
+            }
+        });
+    })
 
-    </section>
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
-    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-    <!-- Use it like any other HTML element -->
-    <model-viewer src="https://modelviewer.dev/shared-assets/models/Astronaut.glb" alt="A 3D model of an astronaut" auto-rotate camera-controls></model-viewer>
+</script>
 </body>
 </html>
