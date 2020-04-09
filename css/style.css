@@ -54,9 +54,13 @@
     transform: scale(1.2);
 }
 .scroll-down {
+/* Scroll down button for top of page.*/
+}
 
+h2 {
+    font-weight: 600
 }
 
 model-viewer {
-    height: 30em;
+    height: 25em;
 }
