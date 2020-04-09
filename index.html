@@ -20,26 +20,27 @@
 <section class="bg-dark text-light">
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-6 mx-auto d-block d-none d-md-inline-block d-flex justify-content-center">
-            <div class="holder rounded-circle img-thumbnail align-middle d-none d-md-inline-block">
+        <div class="col-lg-6 col-md-4 col-sm-5 mx-auto d-block d-md-inline-block d-flex justify-content-center">
+            <div class="holder rounded-circle img-thumbnail align-middle d-md-inline-block">
             <picture>
                 <img class="col p-0 m-0 d-flex justify-content-center me-img" src="images/me.jpg" alt="Thomas Evan Abbott"/>
             </picture>
             </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 align-self-center pl-3">
-            <h1 class="header-title pl-0 ml-0 d-inline-block">Thomas Abbott</h1>
-            <h3 class="pl-md-3">3rd Year Engineering Student<br/>
+        <div class="col-lg-6 col-md-8 col-sm-12 align-self-center">
+            <h1 class="header-title text-md-left text-sm-center text-center">Thomas Abbott</h1>
+            <h3 class=" text-md-left text-sm-center">3rd Year Engineering Student<br/>
                 Western University
             </h3>
-            <div class="socials pl-md-3">
+            <div class="socials text-md-left text-sm-center text-center">
                 <a class="text-light" href="https://www.instagram.com/abbott242_/"><i class="fab fa-instagram fa-2x"></i></a>
                 <a class="text-light" href="https://www.facebook.com/Abbott242"><i class="fab fa-facebook-square fa-2x"></i></a>
                 <a class="text-light" href="https://www.linkedin.com/in/thomas-abbott-42a9265b/"><i
                         class="fab fa-linkedin fa-2x"></i></a>
             </div>
-            <p class="pt-2 col-md-12 col-sm-12 col-lg-8">As an engineering student and technology enthusiast, I love to explore new projects and solve problems.
-                Along with my various hobbies and skills, I'd like to share my experiences in design.</p>
+            <p class="pl-0 pt-2 ml-0 col-md-12 col-sm-12 col-lg-8 text-md-left text-sm-center text-center">
+                As a mechanical engineering student and technology enthusiast, I love to explore new projects and solve
+                problems. Along with my various hobbies and skills, I'd like to share my experiences in design.</p>
         </div>
     </div>
 </div>
@@ -55,8 +56,6 @@
             <div class="navbar-nav ml-auto">
                 <a class="nav-item nav-link" href="#projects">Projects</a>
                 <a class="nav-item nav-link" href="#hobbies">Hobbies</a>
-                <a class="nav-item nav-link" href="#awards">Awards / Certifications</a>
-                <a class="nav-item nav-link" href="#certifications">Certifications</a>
             </div>
         </div>
     </div>
@@ -67,35 +66,59 @@
         <div class="content">
     <div class="owl-carousel owl-theme">
         <div class="item card">
-            <model-viewer class="card-img-top" src="models/ms.glb" alt="A Monitor Stand." auto-rotate
-                          camera-controls poster="assets/poster2.png"></model-viewer>
+            <div class="card-background">
+                <model-viewer class="card-img-top" src="models/drawer.glb" alt="A Drawer" auto-rotate
+                              camera-controls interaction-prompt="none"></model-viewer>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Drawer</h5>
+                <p>An opportunity was created after an obsolete radio was removed from my father’s Mooney M20M plane. The now-empty slot in the avionics bay was a hazard for debris getting dropped inside, and would normally be covered up with a simple plate. However in order to put the space to good use, I had the idea to create a small drawer which could be used to store small objects.
+                </p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="drawer">Read more</button>
+            </div>
+        </div>
+        <div class="item card">
+            <div class="card-background">
+            <model-viewer id="toggle-poster" class="card-img-top" src="models/ms.glb" alt="A Monitor Stand." auto-rotate
+                          camera-controls></model-viewer>
+            </div>
             <div class="card-body">
                 <h5 class="card-title">Monitor Stand</h5>
                 <p>Designed for .... made from... something something something...</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="monitorStand">Read more</button>
             </div>
         </div>
         <div class="item card">
+            <div class="card-background">
             <model-viewer class="card-img-top" src="models/on.glb" alt="An opal necklace." auto-rotate
                           camera-controls interaction-prompt="none"></model-viewer>
+            </div>
             <div class="card-body">
                 <h5 class="card-title">Opal Necklace</h5>
                 <p></p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="opalNecklace">Read more</button>
             </div>
         </div>
         <div class="item card">
+            <div class="card-background">
             <model-viewer class="card-img-top" src="models/si.glb" alt="A sight" auto-rotate
                           camera-controls interaction-prompt="none"></model-viewer>
+            </div>
             <div class="card-body">
                 <h5 class="card-title">Sights</h5>
-                <p></p>
+                <p>A member of my University's shooting club had a dilemma. He had a new rifle, but no scope to mount to it. As this particular model of rifle was not manufactured with iron sights included, it would be impossible to shoot until some sighting solution was found.</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="ironSights">Read more</button>
             </div>
         </div>
         <div class="item card">
+            <div class="card-background">
             <model-viewer class="card-img-top" src="models/vg.glb" alt="A vertical grip" auto-rotate
                           camera-controls interaction-prompt="none"></model-viewer>
+            </div>
             <div class="card-body">
                 <h5 class="card-title">Vertical Grip</h5>
                 <p></p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="verticalGrip">Read more</button>
             </div>
         </div>
         </div>
@@ -106,6 +129,51 @@
             </div>
         </div>
     </div>
+</section>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">About</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                    <div class="col-5">
+                        <div id="modalCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                            </div>
+                            <a class="carousel-control-prev" href="#modalCarousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#modalCarousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <h3 class="main-title"></h3>
+                        <p class="main-text">
+                        </p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<section id="contact">
+
 </section>
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
 <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
@@ -125,7 +193,7 @@
     $(document).ready(function() {
         $('.owl-carousel').owlCarousel({
             items: 3,
-            loop: false,
+            loop: true,
             center: false,
             mouseDrag: false,
             margin: 10,
