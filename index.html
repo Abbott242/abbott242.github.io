@@ -16,30 +16,35 @@
     <link href="dist/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="dist/assets/owl.theme.default.css" rel="stylesheet">
 </head>
-<body>
-
-<div class="container">
+<body data-spy="scroll" target="#tea">
+<section class="bg-dark text-light">
+<div class="container-fluid">
     <div class="row">
-        <div class="col-4 ">
+        <div class="col-lg-6 mx-auto d-block d-none d-md-inline-block d-flex justify-content-center">
+            <div class="holder rounded-circle img-thumbnail align-middle d-none d-md-inline-block">
             <picture>
-                <img class="col p-0 m-0 d-flex justify-content-center" src="images/me.jpg" alt="Thomas Evan Abbott"/>
+                <img class="col p-0 m-0 d-flex justify-content-center me-img" src="images/me.jpg" alt="Thomas Evan Abbott"/>
             </picture>
+            </div>
         </div>
-        <div class="col-8 align-self-center m-0 p-0">
-            <h1>Thomas Evan Abbott</h1>
-            <p>3rd Year Engineering Student<br/>
+        <div class="col-lg-6 col-md-6 col-sm-12 align-self-center pl-3">
+            <h1 class="header-title pl-0 ml-0 d-inline-block">Thomas Abbott</h1>
+            <h3 class="pl-md-3">3rd Year Engineering Student<br/>
                 Western University
-            </p>
-            <p>As an engineering student and technology enthusiast, I love to explore new projects and solve problems.
+            </h3>
+            <div class="socials pl-md-3">
+                <a class="text-light" href="https://www.instagram.com/abbott242_/"><i class="fab fa-instagram fa-2x"></i></a>
+                <a class="text-light" href="https://www.facebook.com/Abbott242"><i class="fab fa-facebook-square fa-2x"></i></a>
+                <a class="text-light" href="https://www.linkedin.com/in/thomas-abbott-42a9265b/"><i
+                        class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+            <p class="pt-2 col-md-12 col-sm-12 col-lg-8">As an engineering student and technology enthusiast, I love to explore new projects and solve problems.
                 Along with my various hobbies and skills, I'd like to share my experiences in design.</p>
-            <a class="text-dark" href="https://www.instagram.com/abbott242_/"><i class="fab fa-instagram fa-2x"></i></a>
-            <a class="text-dark" href="https://www.facebook.com/Abbott242"><i class="fab fa-facebook-square fa-2x"></i></a>
-            <a class="text-dark" href="https://www.linkedin.com/in/thomas-abbott-42a9265b/"><i
-                    class="fab fa-linkedin fa-2x"></i></a>
         </div>
     </div>
 </div>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+</section>
+<nav id="tea" class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
         <a class="navbar-brand" href="#">Thomas Abbott</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navTop" aria-controls="navTop"
@@ -48,10 +53,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link active" href="index.html">Intro</a>
-                <a class="nav-item nav-link" href="projects.html">Projects</a>
-                <a class="nav-item nav-link" href="hobbies.html">Hobbies</a>
-                <a class="nav-item nav-link" href="awards.html">Awards / Certifications</a>
+                <a class="nav-item nav-link" href="#projects">Projects</a>
+                <a class="nav-item nav-link" href="#hobbies">Hobbies</a>
+                <a class="nav-item nav-link" href="#awards">Awards / Certifications</a>
+                <a class="nav-item nav-link" href="#certifications">Certifications</a>
             </div>
         </div>
     </div>
@@ -59,17 +64,14 @@
 <section id="projects">
     <div class="container mt-3 pb-5">
     <h2>My Projects</h2>
+        <div class="content">
     <div class="owl-carousel owl-theme">
         <div class="item card">
             <model-viewer class="card-img-top" src="models/ms.glb" alt="A Monitor Stand." auto-rotate
                           camera-controls interaction-prompt="none"></model-viewer>
             <div class="card-body">
                 <h5 class="card-title">Monitor Stand</h5>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">144x54 Bolster Size</li>
-                    <li class="list-group-item">16 inch Stroke, 15-30 Strokes per Minute</li>
-                    <li class="list-group-item">Decoiler - 24,000 lbs., 40 inch width capacity</li>
-                </ul>
+                <p>Designed for .... made from... something something something...</p>
             </div>
         </div>
         <div class="item card">
@@ -77,11 +79,7 @@
                           camera-controls></model-viewer>
             <div class="card-body">
                 <h5 class="card-title">Opal Necklace</h5>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">144x54 Bolster Size</li>
-                    <li class="list-group-item">16 inch Stroke, 15-30 Strokes per Minute</li>
-                    <li class="list-group-item">Decoiler - 24,000 lbs., 40 inch width capacity</li>
-                </ul>
+                <p></p>
             </div>
         </div>
         <div class="item card">
@@ -89,11 +87,7 @@
                           camera-controls></model-viewer>
             <div class="card-body">
                 <h5 class="card-title">Sights</h5>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">144x54 Bolster Size</li>
-                    <li class="list-group-item">16 inch Stroke, 15-30 Strokes per Minute</li>
-                    <li class="list-group-item">Decoiler - 24,000 lbs., 40 inch width capacity</li>
-                </ul>
+                <p></p>
             </div>
         </div>
         <div class="item card">
@@ -101,13 +95,15 @@
                           camera-controls></model-viewer>
             <div class="card-body">
                 <h5 class="card-title">Vertical Grip</h5>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">144x54 Bolster Size</li>
-                    <li class="list-group-item">16 inch Stroke, 15-30 Strokes per Minute</li>
-                    <li class="list-group-item">Decoiler - 24,000 lbs., 40 inch width capacity</li>
-                </ul>
+                <p></p>
             </div>
         </div>
+        </div>
+            <div class="owl-theme">
+                <div class="owl-controls">
+                    <div class="custom-nav owl-nav"></div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -137,7 +133,29 @@
             URLhashListener: true,
             autoplayHoverPause: true,
             startPosition: 'URLHash',
-            nav: false
+            nav: false,
+            touchDrag: false,
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:true
+                },
+                600:{
+                    items:2,
+                    nav:false
+                },
+                1000:{
+                    items:3,
+                    loop:false,
+                    nav: true,
+                    navText: [
+                        '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                        '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+                    ],
+                    navContainer: '.content .custom-nav',
+                }
+            }
         });
     })
 

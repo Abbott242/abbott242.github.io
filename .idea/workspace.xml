@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06e5d673-e5a6-4cfd-9817-82f563c03f43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/owl.theme.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/owl.theme.green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/owl.video.play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/ms.glb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/on.glb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/si.glb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/vg.glb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,7 +75,7 @@
       <workItem from="1585241156388" duration="1000000" />
       <workItem from="1585270410817" duration="4422000" />
       <workItem from="1585417712886" duration="7000" />
-      <workItem from="1586375185263" duration="2729000" />
+      <workItem from="1586375185263" duration="11617000" />
     </task>
     <servers />
   </component>

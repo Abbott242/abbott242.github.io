@@ -1,0 +1,58 @@
+.header-title {
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1400px) {
+    h1.header-title {
+        font-size: 9em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    h1.header-title {
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1.header-title {
+        font-size: 3em;
+    }
+}
+.content {
+    position: relative;
+}
+.owl-theme .custom-nav {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+}
+.owl-theme .custom-nav .owl-prev, .owl-theme .custom-nav .owl-next {
+    position: absolute;
+    height: 100px;
+    color: inherit;
+    background: none !important;
+    border: none;
+    z-index: 100;
+}
+.owl-theme .custom-nav .owl-prev i, .owl-theme .custom-nav .owl-next i {
+    font-size: 2.5rem;
+    color: #cecece;
+}
+.owl-theme .custom-nav .owl-prev {
+    left: 0;
+}
+.owl-theme .custom-nav .owl-next {
+    right: 0;
+}
+.holder {
+    overflow: hidden;
+    transform: scale(.6)
+}
+.me-img {
+    transform: scale(1.2);
+}
+.scroll-down {
+
+}
