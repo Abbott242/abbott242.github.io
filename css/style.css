@@ -107,3 +107,31 @@ img.card-img-top {
     height: 400px;
     object-fit: cover;
 }
+
+.resume-header hr {
+    margin-left: auto;
+    margin-right: auto;
+    height: .5rem;
+    background-color:#000;
+    opacity: 1;
+}
+
+.resume-heading {
+    font-weight: 700;
+}
+.date {
+    text-align: right;
+}
+.subheading {
+    font-weight: 600;
+}
+ul.date {
+    list-style: none;
+}
+.col-3-dates .col-3 {
+    text-align: right;
+}
+.blue {
+    background-size: cover;
+    background-color: #2196f3 !important;
+}

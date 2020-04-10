@@ -16,7 +16,7 @@
     <link href="dist/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="dist/assets/owl.theme.default.css" rel="stylesheet">
 </head>
-<body data-spy="scroll" target="#tea">
+<body data-spy="scroll" target=".navbar">
 <section class="bg-dark text-light">
 <div class="container-fluid">
     <div class="row">
@@ -32,10 +32,10 @@
             <h3 class="text-md-left text-sm-center text-center">3rd Year Engineering Student<br/>
                 Western University
             </h3>
-            <div class="socials">
-                <a class="text-light text-md-left text-sm-center text-center" href="https://www.instagram.com/abbott242_/"><i class="fab fa-instagram fa-2x"></i></a>
-                <a class="text-light text-md-left text-sm-center text-center" href="https://www.facebook.com/Abbott242"><i class="fab fa-facebook-square fa-2x"></i></a>
-                <a class="text-light text-md-left text-sm-center text-center" href="https://www.linkedin.com/in/thomas-abbott-42a9265b/"><i
+            <div class="socials text-md-left text-sm-center text-center">
+                <a class="text-light text-md-left text-sm-center text-center pr-2 pl-0 pt-2 pb-2" href="https://www.instagram.com/abbott242_/"><i class="fab fa-instagram fa-2x"></i></a>
+                <a class="text-light text-md-left text-sm-center text-center p-2" href="https://www.facebook.com/Abbott242"><i class="fab fa-facebook-square fa-2x"></i></a>
+                <a class="text-light text-md-left text-sm-center text-center p-2" href="https://www.linkedin.com/in/thomas-abbott-42a9265b/"><i
                         class="fab fa-linkedin fa-2x"></i></a>
             </div>
             <p class="pl-0 pt-2 ml-0 col-md-12 col-sm-12 col-lg-8 text-md-left text-sm-center text-center">
@@ -46,18 +46,26 @@
 </div>
 </section>
 <!--Navigation-->
-<nav id="tea" class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" data-offset-top="0" data-spy="affix" id="NaVbar" data-aos="fade-right">
     <div class="container">
-        <a class="navbar-brand" href="#">Thomas Abbott</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navTop" aria-controls="navTop"
-                aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="index.html#">
+            Thomas Abbott
+        </a>
+        <button aria-controls="navbarResponsive" aria-expanded="false" aria-haspopup="true" aria-label="Toggle navigation" class="navbar-toggler collapsed" data-target="#navbarResponsive" data-toggle="collapse" role="button" type="button">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link" href="#projects">Projects</a>
-                <a class="nav-item nav-link" href="#hobbies">Hobbies</a>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resume.html">Resume</a>
+                </li>
+            </ul>
         </div>
     </div>
 </nav>
@@ -119,7 +127,7 @@
 </div>
 <section id="contact">
     <div class="container">
-        <h2 class="pb-2 text-center"></h2>
+        <h2 class="pb-2 text-center">Contact</h2>
     </div>
 </section>
 
@@ -176,5 +184,14 @@
     })
 
 </script>
+<footer class="page-footer font-small bg-dark text-white mt-5">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="https://brettpetch.ca/"> Brett Petch</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
 </body>
 </html>

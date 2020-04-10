@@ -41,7 +41,7 @@ const teaProjects = {
 };
 
 function truncate(str, no_words) {
-    return str.split(" ").splice(0,no_words).join(" ");
+    return str.split(" ").splice(0, no_words).join(" ");
 }
 
 $('#exampleModal').on('show.bs.modal', function (event) {
@@ -63,14 +63,15 @@ $('#exampleModal').on('show.bs.modal', function (event) {
                 modal.find('.modal-body .carousel-inner').prepend('<div class="carousel-item"> <img class="d-block w-100" src="' + project['images'][i] + '" alt="carousel image" /> </div>');
             }
         }
-    } if (project['model'] || !project['images'].length) {
-        modal.find('.modal-body .col-5').append('<div class="card-background"><model-viewer class="card-img-top" src="'+ project['model'] + '" alt="' + project['title'] + '" auto-rotate camera-controls interaction-prompt="none"></model-viewer></div>')
+    }
+    if (project['model'] || !project['images'].length) {
+        modal.find('.modal-body .col-5').append('<div class="card-background"><model-viewer class="card-img-top" src="' + project['model'] + '" alt="' + project['title'] + '" auto-rotate camera-controls interaction-prompt="none"></model-viewer></div>')
     }
     modal.find('.modal-body .main-title').text(project['title']);
     modal.find('.modal-body .main-text').html(project['text'])
 });
 
-$("#exampleModal").on("hidden.bs.modal", function() {
+$("#exampleModal").on("hidden.bs.modal", function () {
     // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
     // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
     var modal = $(this);
@@ -118,7 +119,7 @@ function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
 }
 
-$(document).ready(function() {
+$(document).ready(function () {
     var i;
     let image;
     let imageH;
@@ -128,18 +129,17 @@ $(document).ready(function() {
             inum = getRandomInt(teaProjects[i]['images'].length);
             imageH = teaProjects[i]['images'][inum];
             image = ('<img class="card-img-top" src="' + imageH + '" alt="' + teaProjects[i]['title'] + '" />');
-        }
-        else {
+        } else {
             image = ('<model-viewer class="card-img-top" src="' + teaProjects[i]['model'] + '" alt="' + teaProjects[i]['title'] + '" auto-rotate\n' +
-            '                              camera-controls interaction-prompt="none"></model-viewer>\n')
+                '                              camera-controls interaction-prompt="none"></model-viewer>\n')
         }
-            $('.owl-carousel').append('<!--OWL Card Item-->' +
+        $('.owl-carousel').append('<!--OWL Card Item-->' +
             '       <div class="item card">\n' +
             '            <div class="card-background">\n' + image +
             '            </div>\n' +
             '            <div class="card-body">\n' +
             '                <h5 class="card-title">' + teaProjects[i]['title'] + '</h5>\n' +
-            '                <p>' + truncate(teaProjects[i]['text'], 55)+
+            '                <p>' + truncate(teaProjects[i]['text'], 55) +
             '                ...</p>\n' +
             '                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="' + i + '">Read more</button>\n' +
             '            </div>\n' +
