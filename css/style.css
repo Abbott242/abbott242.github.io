@@ -98,7 +98,7 @@ img.card-img-top {
     object-fit: cover;
 }
 
-.resume-header hr {
+.resume-header hr, #projects hr {
     margin-left: auto;
     margin-right: auto;
     height: .5rem;
@@ -253,4 +253,8 @@ ul.social-network li {
 
 .social-network a {
     background-color: #F9F9F9;
+}
+
+.heading-main {
+    font-size: 5em;
 }

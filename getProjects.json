@@ -2,7 +2,7 @@
   "drawer": {
     "title": "Drawer",
     "model": "models/drawer.glb",
-    "images": ["https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg", "https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg", "https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"],
+    "images": ["images/drawer_1.jpg", "images/drawer_2.jpg", "drawer_3.jpg"],
     "text": "<p>An opportunity was created after an obsolete radio was removed from my father’s Mooney M20M plane. The now-empty slot in the avionics bay was a hazard for debris getting dropped inside, and would normally be covered up with a simple plate. However in order to put the space to good use, I had the idea to create a small drawer which could be used to store small objects. Snacks, pens, phones, and wallets would have a convenient place to go - within reach, but out of the way in the compact cockpit. The first issue to solve was heating. During operation, the avionics bay would heat tremendously, beyond the operating temperature of most normal 3D-printing filaments. Therefore, I decided to use a nylon alloy filament, PolyMaker’s “CoPa”. Though this added expense and complications during printing, the operating temperature of 180C was more than enough to take the heat during use.</p>",
     "category": ["CAD", "Manufacturing"]
   },
@@ -27,18 +27,17 @@
     "images": ["https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg", "https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg", "https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"],
     "text": "",
     "category": ["CAD", "Manufacturing"]
-
   },
   "tourniquet": {
     "title": "Tourniquet",
     "model": "",
-    "images": ["https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg", "https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg", "https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"],
+    "images": ["images/tourniquet_1.jpg"],
     "text": "",
     "category": ["Manufacturing"]
   },
   "faceShields": {
     "title": "Face Shields",
-    "images": ["https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg", "https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg", "https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"],
+    "images": ["images/faceshield_2.jpg"],
     "model": "",
     "text": "<p>The COVID-19 pandemic has been wreaking havoc on the world, particularly the healthcare system. Many essential medical devices are in short supply at the moment, and a large demand for replacements exists. While some items such as ventilators and masks require fairly complex facilities to produce, the flexible manufacturing provided by 3D printers can help to make simpler parts. Prusa Research designed a 3D-printable face shield which has seen somewhat widespread adoption when traditionally manufactured alternatives are no longer available.</p><p>Therefore, when Inksmith LTD ran a donation drive in my area to collect parts for these face shields, I decided to try my hand at producing some. Using my Prusa MK3S and a Creality CR-10S 3D-printer over the course of a week, I spent most of my filament in constant printing. This was done using many different brands and plastics, including PLA, XT, and PETG. While each type required tweaking in order to optimize both print quality and speed, the result was enough parts for 60 functional face shields. Though certainly not ideal, once assembled and in the right hands they should provide a basic level of protection from the virus.</p>",
     "category": ["Manufacturing"]
