@@ -122,7 +122,7 @@ $(document).ready(function() {
     $('.owl-carousel').owlCarousel({
         items: 3,
         loop: true,
-        center: false,
+        center: true,
         mouseDrag: false,
         margin: 10,
         callbacks: true,
@@ -143,11 +143,11 @@ $(document).ready(function() {
                 nav:true
             },
             600:{
-                items:1,
+                items:2,
                 nav: true
             },
             1000:{
-                items:2,
+                items:3,
                 loop:false,
                 nav: true
             }
