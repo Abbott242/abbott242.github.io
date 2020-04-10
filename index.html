@@ -11,10 +11,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="css/all.css" rel="stylesheet">
+    <link href="css/all.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="dist/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="dist/assets/owl.theme.default.css" rel="stylesheet">
+    <link href="dist/assets/owl.theme.default.min.css" rel="stylesheet">
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "url": "https://thomasabbott.ca",
+        "name": "Thomas Abbott",
+        "givenName": "Thomas",
+        "familyName": "Abbott",
+        "knowsAbout": "Engineering",
+        "nationality": "Canadian",
+        "image": "https://thomasabbott.ca/images/me.jpg",
+        "gender": "Male",
+        "knowsLanguage": "en-CA",
+        "telephone": "+1-587-222-3531",
+        "email": "tevanabbott@gmail.com"
+        }
+    </script>
 </head>
 <body data-spy="scroll" target=".navbar">
 <section class="bg-dark text-light">
@@ -23,6 +40,8 @@
         <div class="col-lg-6 col-md-4 col-sm-5 mx-auto d-block d-md-inline-block d-flex justify-content-center">
             <div class="holder rounded-circle img-thumbnail align-middle d-md-inline-block">
             <picture>
+                <source srcset="images/me.webp" type="image/webp">
+                <source srcset="images/me.jpg" type="image/jpeg">
                 <img class="col p-0 m-0 d-flex justify-content-center me-img" src="images/me.jpg" alt="Thomas Evan Abbott"/>
             </picture>
             </div>
@@ -33,11 +52,13 @@
                 Western University
             </h3>
             <div class="socials text-md-left text-sm-center text-center">
-                <a class="text-light text-md-left text-sm-center text-center pr-2 pl-0 pt-2 pb-2" href="https://www.instagram.com/abbott242_/"><i class="fab fa-instagram fa-2x"></i></a>
-                <a class="text-light text-md-left text-sm-center text-center p-2" href="https://www.facebook.com/Abbott242"><i class="fab fa-facebook-square fa-2x"></i></a>
-                <a class="text-light text-md-left text-sm-center text-center p-2" href="https://www.linkedin.com/in/thomas-abbott-42a9265b/"><i
+                <a class="text-light text-md-left text-sm-center text-center pr-2 pl-0 pt-2 pb-2" href="https://www.instagram.com/abbott242_/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                <a class="text-light text-md-left text-sm-center text-center p-2" href="https://www.facebook.com/Abbott242" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+                <a class="text-light text-md-left text-sm-center text-center p-2" href="https://www.linkedin.com/in/thomas-abbott-42a9265b/" target="_blank"><i
                         class="fab fa-linkedin fa-2x"></i></a>
-            </div>
+                <a class="text-light text-md-left text-sm-center text-center p-2" href="mailto:tevanabbott@gmail.com" target="_blank"><i class="fas fa-envelope-square fa-2x"></i></a>
+                <a class="text-light text-md-left text-sm-center text-center p-2" href="tel:(587)-222-3531"><i class="fas fa-phone-square fa-2x"></i></a>
+           </div>
             <p class="pl-0 pt-2 ml-0 col-md-12 col-sm-12 col-lg-8 text-md-left text-sm-center text-center">
                 As a mechanical engineering student and technology enthusiast, I love to explore new projects and solve
                 problems. Along with my various hobbies and skills, I'd like to share my experiences in design.</p>
@@ -125,65 +146,6 @@
         </div>
     </div>
 </div>
-<section id="contact">
-    <div class="container">
-        <h2 class="pb-2 text-center">Contact</h2>
-    </div>
-</section>
-
-<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
-<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-<!-- Use it like any other HTML element -->
-<script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-<script src="js/scripts.js"></script>
-<script src="dist/owl.carousel.min.js"></script>
-
-<script>
-    $(document).ready(function() {
-        $('.owl-carousel').owlCarousel({
-            items: 3,
-            loop: true,
-            center: false,
-            mouseDrag: false,
-            margin: 10,
-            callbacks: true,
-            URLhashListener: true,
-            autoplayHoverPause: true,
-            startPosition: 'URLHash',
-            nav: false,
-            touchDrag: false,
-            responsiveClass:true,
-            responsive:{
-                0:{
-                    items:1,
-                    nav:true
-                },
-                600:{
-                    items:1,
-                    nav:false
-                },
-                1000:{
-                    items:2,
-                    loop:false,
-                    nav: true,
-                    navText: [
-                        '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-                        '<i class="fa fa-angle-right" aria-hidden="true"></i>'
-                    ],
-                    navContainer: '.content .custom-nav',
-                }
-            }
-        });
-    })
-
-</script>
 <footer class="page-footer font-small bg-dark text-white mt-5">
 
     <!-- Copyright -->
@@ -193,5 +155,19 @@
     <!-- Copyright -->
 
 </footer>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+<!-- Use it like any other HTML element -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+<script src="dist/owl.carousel.min.js"></script>
 </body>
 </html>

@@ -35,7 +35,7 @@ $('#exampleModal').on('show.bs.modal', function (event) {
         }
     }
     if (project['model'] || !project['images'].length) {
-        modal.find('.modal-body .col-5').append('<div class="card-background"><model-viewer class="card-img-top" src="' + project['model'] + '" alt="' + project['title'] + '" auto-rotate camera-controls interaction-prompt="none"></model-viewer></div>')
+        modal.find('.modal-body .col-5').append('<div class="card-background"><model-viewer class="card-img-top" src="' + project['model'] + '" alt="' + project['title'] + '" auto-rotate camera-controls interaction-prompt="none" interaction-policy="allow-when-focused"></model-viewer></div>')
     }
     modal.find('.modal-body .main-title').text(project['title']);
     modal.find('.modal-body .main-text').html(project['text'])
@@ -101,7 +101,7 @@ $(document).ready(function () {
             image = ('<img class="card-img-top" src="' + imageH + '" alt="' + teaProjects[i]['title'] + '" />');
         } else {
             image = ('<model-viewer class="card-img-top" src="' + teaProjects[i]['model'] + '" alt="' + teaProjects[i]['title'] + '" auto-rotate\n' +
-                '                              camera-controls interaction-prompt="none"></model-viewer>\n')
+                '                              camera-controls interaction-prompt="none" interaction-policy="allow-when-focused"></model-viewer>\n')
         }
         $('.owl-carousel').append('<!--OWL Card Item-->' +
             '       <div class="item card">\n' +
@@ -117,3 +117,40 @@ $(document).ready(function () {
         )
     }
 });
+
+$(document).ready(function() {
+    $('.owl-carousel').owlCarousel({
+        items: 3,
+        loop: true,
+        center: false,
+        mouseDrag: false,
+        margin: 10,
+        callbacks: true,
+        URLhashListener: true,
+        autoplay: false,
+        startPosition: 'URLHash',
+        touchDrag: false,
+        responsiveClass:true,
+        nav: true,
+        navText: [
+            '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+            '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+        ],
+        navContainer: '.content .custom-nav',
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:1,
+                nav: true
+            },
+            1000:{
+                items:2,
+                loop:false,
+                nav: true
+            }
+        }
+    });
+})
