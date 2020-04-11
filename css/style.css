@@ -283,6 +283,27 @@ ul.social-network li {
     font-size: 5em;
 }
 
+
+@media screen and (min-width: 1400px) {
+    .heading-main{
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .heading-main {
+        font-size: 4em;
+        padding-left: 0 !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .heading-main {
+        font-size: 3em;
+        text-align: left;
+        padding-left: 0 !important;
+    }
+}
 .card {
     border-radius: 0;
     border: none;
