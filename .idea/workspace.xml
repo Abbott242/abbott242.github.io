@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06e5d673-e5a6-4cfd-9817-82f563c03f43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/sights_1.jpg.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/sights_2.jpg.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/sights_3.jpg.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getProjects.json" beforeDir="false" afterPath="$PROJECT_DIR$/getProjects.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sights_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sights_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sights_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sights_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

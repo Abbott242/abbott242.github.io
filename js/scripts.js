@@ -26,11 +26,11 @@ $('#exampleModal').on('show.bs.modal', function (event) {
         modal.find('.carousel').removeClass('d-none');
         for (i = 0; i < project['images'].length; i++) {
             if (i === 0) {
-                modal.find('.modal-body .carousel-indicators').prepend('<li data-target="#modalCarousel" data-slide-to="' + i + '" class="active"></li>')
-                modal.find('.modal-body .carousel-inner').prepend('<div class="carousel-item active"> <img class="d-block w-100" src="' + project['images'][i] + '" alt="carousel image"/> </div>');
+                modal.find('.modal-body .carousel-indicators').append('<li data-target="#modalCarousel" data-slide-to="' + i + '" class="active"></li>')
+                modal.find('.modal-body .carousel-inner').append('<div class="carousel-item active"> <img class="d-block w-100" src="' + project['images'][i] + '" alt="carousel image"/> </div>');
             } else {
-                modal.find('.modal-body .carousel-indicators').prepend('<li data-target="#modalCarousel" data-slide-to="' + i + '"></li>')
-                modal.find('.modal-body .carousel-inner').prepend('<div class="carousel-item"> <img class="d-block w-100" src="' + project['images'][i] + '" alt="carousel image" /> </div>');
+                modal.find('.modal-body .carousel-indicators').append('<li data-target="#modalCarousel" data-slide-to="' + i + '"></li>')
+                modal.find('.modal-body .carousel-inner').append('<div class="carousel-item"> <img class="d-block w-100" src="' + project['images'][i] + '" alt="carousel image" /> </div>');
             }
         }
     }
