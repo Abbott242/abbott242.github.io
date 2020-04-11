@@ -54,8 +54,8 @@ $("#exampleModal").on("hidden.bs.modal", function () {
         '            </div>\n' +
         '            <div class="modal-body">\n' +
         '                <div class="container-fluid">\n' +
-        '                    <div class="row">\n' +
-        '                    <div class="col-5">\n' +
+        '                    <div class="row h-100">\n' +
+        '                    <div class="col-5 my-auto">\n' +
         '                        <div id="modalCarousel" class="carousel slide carousel-fade" data-ride="carousel">\n' +
         '                            <ol class="carousel-indicators">\n' +
         '                            </ol>\n' +
