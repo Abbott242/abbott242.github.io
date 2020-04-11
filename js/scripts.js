@@ -34,7 +34,7 @@ $('#exampleModal').on('show.bs.modal', function (event) {
             }
         }
     }
-    if (project['model'] || !project['images'].length) {
+    if (!project['images'].length) {
         modal.find('.modal-body .col-5').append('<div class="card-background"><model-viewer class="card-img-top" src="' + project['model'] + '" alt="' + project['title'] + '" auto-rotate camera-controls interaction-prompt="none" interaction-policy="allow-when-focused"></model-viewer></div>')
     }
     modal.find('.modal-body .main-title').text(project['title']);
