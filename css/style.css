@@ -6,6 +6,17 @@ html {
     font-weight: 700;
 }
 
+.socials a * {
+    transform: scale(1);
+    transition: all 400ms ease;
+    color: #fff;
+}
+
+.socials a:hover * {
+    transform: scale(1.15);
+    color: #fa994b;
+}
+
 @media screen and (min-width: 1400px) {
     h1.header-title {
         font-size: 9em;
@@ -23,68 +34,46 @@ html {
         font-size: 3em;
     }
 }
+
 .content {
     position: relative;
 }
+
 .owl-theme .custom-nav {
     position: absolute;
     top: 30%;
     left: 0;
     right: 0;
 }
+
 .owl-theme .custom-nav .owl-prev, .owl-theme .custom-nav .owl-next {
     position: absolute;
     height: 100px;
-    color: inherit;
     background: none !important;
     border: none;
     z-index: 100;
 }
+
 .owl-theme .custom-nav .owl-prev i, .owl-theme .custom-nav .owl-next i {
     font-size: 2.5rem;
-    color: #cecece;
+    color: rgba(0, 0, 0, .9);
 }
+
 .owl-theme .custom-nav .owl-prev {
     left: 0;
 }
+
 .owl-theme .custom-nav .owl-next {
     right: 0;
 }
+
 .holder {
     overflow: hidden;
-    transform: scale(.6)
-}
-.me-img {
-    transform: scale(1.2);
-}
-.scroll-down a {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    z-index: 2;
-    display: inline-block;
-    -webkit-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    color: #fff;
-    font : normal 400 20px/1 'Josefin Sans', sans-serif
-    letter-spacing: .1em;
-    text-decoration: none;
-    transition: opacity .3s;
+    transform: scale(.6);
 }
 
-.scroll-down a span{
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 24px;
-    height: 24px;
-    margin-left: -12px;
-    border-left: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    box-sizing: border-box;
-/* Scroll down button for top of page.*/
+.me-img {
+    transform: scale(1.2);
 }
 
 h2 {
@@ -97,4 +86,205 @@ model-viewer {
 
 .card-background {
     background: linear-gradient(0deg, rgba(231,229,229,1) 0%, rgba(197,197,198,1) 48%, rgba(245,245,245,1) 100%);
+}
+.card-background {
+    object-fit: fill;
+    overflow: hidden;
+}
+
+img.card-img-top {
+    width: 548px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 2.2em;
+    padding-bottom: 0.4em;
+    box-shadow: 0 0.2em #000;
+}
+
+.card-body {
+    background-color: #fff;
+}
+
+.card-body p {
+    font-size: 1em;
+    font-weight: 400;
+    padding-top: 0.1rem;
+}
+
+.card {
+    box-shadow: 0 0 0.5em rgba(0,0,0,0.1);
+}
+
+body {
+    background-color: var(--light);
+}
+
+.resume-header hr, #projects hr {
+    margin-left: auto;
+    margin-right: auto;
+    height: .5rem;
+    background-color:#000;
+    opacity: 1;
+}
+
+.resume-heading {
+    font-weight: 700;
+}
+
+.date {
+    text-align: right;
+}
+
+.subheading {
+    font-weight: 600;
+}
+
+ul.date {
+    list-style: none;
+}
+
+.col-3-dates .col-3 {
+    text-align: right;
+}
+
+.blue {
+    background-size: cover;
+    background-color: #2196f3 !important;
+}
+
+.bg-dark {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #16222A, #3A6073);
+    background: linear-gradient(59deg, #16222A, #3A6073);
+}
+
+footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    margin-top:100px;
+}
+
+footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+}
+
+footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+}
+
+.copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+    padding-top: 2em;
+    color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+}
+
+.social-network a.icoInstagram:hover {
+    background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i,
+.social-network a.icoInstagram:hover i {
+    color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.social-network a {
+    background-color: #F9F9F9;
+}
+
+.heading-main {
+    font-size: 5em;
+}
+
+.card {
+    border-radius: 0;
+    border: none;
+
 }
