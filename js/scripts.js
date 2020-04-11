@@ -98,7 +98,11 @@ $(document).ready(function () {
         if (teaProjects[i]['model'].length === 0) {
             inum = getRandomInt(teaProjects[i]['images'].length);
             imageH = teaProjects[i]['images'][inum];
-            image = ('<img class="card-img-top" src="' + imageH + '" alt="' + teaProjects[i]['title'] + '" />');
+            image = ('<picture>' +
+                '<source srcset="' + imageH + '.webp" type="image/webp" >' +
+                '<source srcset="' + imageH + '" type="image/jpeg">' +
+                '<img class="card-img-top" src="' + imageH + '" alt="' + teaProjects[i]['title'] + '" />' +
+                '</picture>');
         } else {
             image = ('<model-viewer class="card-img-top" src="' + teaProjects[i]['model'] + '" alt="' + teaProjects[i]['title'] + '" auto-rotate\n' +
                 '                              camera-controls interaction-prompt="none" interaction-policy="allow-when-focused"></model-viewer>\n')
