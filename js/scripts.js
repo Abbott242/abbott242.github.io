@@ -35,7 +35,7 @@ $('#exampleModal').on('show.bs.modal', function (event) {
         }
     }
     if (!project['images'].length) {
-        modal.find('.modal-body .col-5').append('<div class="card-background"><model-viewer class="card-img-top" src="' + project['model'] + '" alt="' + project['title'] + '" auto-rotate camera-controls interaction-prompt="none" interaction-policy="allow-when-focused"></model-viewer></div>')
+        modal.find('.modal-body .col-12').append('<div class="card-background"><model-viewer class="card-img-top" src="' + project['model'] + '" alt="' + project['title'] + '" auto-rotate camera-controls interaction-prompt="none" interaction-policy="allow-when-focused"></model-viewer></div>')
     }
     modal.find('.modal-body .main-title').text(project['title']);
     modal.find('.modal-body .main-text').html(project['text'])
@@ -53,28 +53,34 @@ $("#exampleModal").on("hidden.bs.modal", function () {
         '                </button>\n' +
         '            </div>\n' +
         '            <div class="modal-body">\n' +
-        '                <div class="container-fluid">\n' +
-        '                    <div class="row h-100">\n' +
-        '                    <div class="col-5 my-auto">\n' +
-        '                        <div id="modalCarousel" class="carousel slide carousel-fade" data-ride="carousel">\n' +
-        '                            <ol class="carousel-indicators">\n' +
-        '                            </ol>\n' +
-        '                            <div class="carousel-inner" role="listbox">\n' +
-        '                            </div>\n' +
-        '                            <a class="carousel-control-prev" href="#modalCarousel" role="button" data-slide="prev">\n' +
-        '                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>\n' +
-        '                                <span class="sr-only">Previous</span>\n' +
-        '                            </a>\n' +
-        '                            <a class="carousel-control-next" href="#modalCarousel" role="button" data-slide="next">\n' +
-        '                                <span class="carousel-control-next-icon" aria-hidden="true"></span>\n' +
-        '                                <span class="sr-only">Next</span>\n' +
-        '                            </a>\n' +
-        '                        </div>\n' +
-        '                    </div>\n' +
-        '                    <div class="col-7">\n' +
-        '                        <h3 class="main-title"></h3>\n' +
+        '                <iv class="container-fluid">\n' +
+        '                    <div class="row">\n' +
+            '                    <div class="col-12">\n' +
+            '                        <div class="mx-5">' +
+            '                           <h3 class="main-title ml-5 card-title"></h3>\n' +
+            '                        </div>' +
+            '                       <div id="modalCarousel" class="carousel slide carousel-fade card-background d-none" data-ride="carousel">\n' +
+            '                            <ol class="carousel-indicators">\n' +
+            '                            </ol>\n' +
+            '                            <div class="carousel-inner" role="listbox">\n' +
+            '                            </div>\n' +
+            '                            <a class="carousel-control-prev" href="#modalCarousel" role="button" data-slide="prev">\n' +
+            '                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>\n' +
+            '                                <span class="sr-only">Previous</span>\n' +
+            '                            </a>\n' +
+            '                            <a class="carousel-control-next" href="#modalCarousel" role="button" data-slide="next">\n' +
+            '                                <span class="carousel-control-next-icon" aria-hidden="true"></span>\n' +
+            '                                <span class="sr-only">Next</span>\n' +
+            '                            </a>\n' +
+            '                        </div>\n' +
+            '                    </div>\n' +
+        '                       </div>\n' +
+        '                       <div class="row pt-5">\n' +
+        '                    <div class="col-1"></div>\n' +
+        '                    <div class="col-9">\n' +
         '                        <p class="main-text">\n' +
         '                        </p>\n' +
+        '                    </div>\n' +
         '                    </div>\n' +
         '                    </div>\n' +
         '                </div>\n' +

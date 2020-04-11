@@ -16,7 +16,7 @@
   "monitorStand": {
     "title": "Monitor Stand",
     "model": "models/ms.glb",
-    "images": [],
+    "images": ["images/monitorstand_1.jpg", "images/monitorstand_2.jpg"],
     "text": "",
     "category": ["CAD", "Manufacturing"]
 
@@ -24,7 +24,7 @@
   "opalNecklace": {
     "title": "Opal Necklace",
     "model": "models/on.glb",
-    "images": [],
+    "images": ["images/opal_1.jpg", "images/opal_2.jpg"],
     "text": "<p>Many of the modeling projects I work on are primarily focused on technical design. Fit, function, and efficiency are generally far more crucial considerations when compared to aesthetics. However, I had much more artistic liberty when I decided to design a pendant as a gift for my girlfriend. This was a first for me, as was the method of production - the online service provided by Shapeways. After I created the model, it was sent to their facility and 3D printed in wax, then cast in silver. But most importantly, this project was a learning experience for me, as I got my first glimpse at creating somewhat organic structures in SolidWorks.</p>",
     "category": ["CAD", "Manufacturing"]
   },
