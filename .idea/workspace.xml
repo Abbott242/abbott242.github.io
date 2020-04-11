@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06e5d673-e5a6-4cfd-9817-82f563c03f43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/sights_1.jpg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sights_2.jpg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sights_3.jpg.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getProjects.json" beforeDir="false" afterPath="$PROJECT_DIR$/getProjects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sights_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sights_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sights_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sights_2.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +58,18 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\brett\WebstormProjects\abbott242.github.io\models" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\brett\AppData\Roaming\Subversion</configuration>
