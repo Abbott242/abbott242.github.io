@@ -98,6 +98,30 @@ img.card-img-top {
     object-fit: cover;
 }
 
+.card-title {
+    font-size: 2.2em;
+    padding-bottom: 0.4em;
+    box-shadow: 0 0.2em #000;
+}
+
+.card-body {
+    background-color: #fff;
+}
+
+.card-body p {
+    font-size: 1em;
+    font-weight: 400;
+    padding-top: 0.1rem;
+}
+
+.card {
+    box-shadow: 0 0 0.5em rgba(0,0,0,0.1);
+}
+
+body {
+    background-color: var(--light);
+}
+
 .resume-header hr, #projects hr {
     margin-left: auto;
     margin-right: auto;
@@ -257,4 +281,10 @@ ul.social-network li {
 
 .heading-main {
     font-size: 5em;
+}
+
+.card {
+    border-radius: 0;
+    border: none;
+
 }

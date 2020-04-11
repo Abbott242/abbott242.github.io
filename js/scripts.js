@@ -90,7 +90,7 @@ function getRandomInt(max) {
 }
 
 $(document).ready(function () {
-    var i;
+    let i;
     let image;
     let imageH;
     let inum;
@@ -148,7 +148,6 @@ $(document).ready(function() {
             },
             1000:{
                 items:3,
-                loop:false,
                 nav: true
             }
         }
