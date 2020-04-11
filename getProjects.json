@@ -16,8 +16,8 @@
   "monitorStand": {
     "title": "Monitor Stand",
     "model": "models/ms.glb",
-    "images": ["images/monitorstand_1.jpg", "images/monitorstand_2.jpg"],
-    "text": "",
+    "images": ["images/monitorstand_2.jpg"],
+    "text": "<p>A friend approached me with a rather simple problem: his desktop monitor was sitting too low on his desk. While the straightforward solution would be to prop it up with textbooks, I took the opportunity to design him a more permanent one As the stand needed to be the size of the monitor base, this ended up being the largest 3D print I’ve done and just barely fit on the printer. Given that the only mechanical requirement of the stand was to support a single, vertical load while taking up space, I took the opportunity to experiment with solidworks and create a more organic, aesthetically-oriented design.</p>\n\n<p>This project gave me further insights into what is possible with 3D modelling, and strengthened my confidence in printing larger objects. The stand functions perfectly (printed out of PLA), and serves a secondary purpose as an artistic touch to the room.</p>",
     "category": ["CAD", "Manufacturing"]
 
   },
@@ -25,14 +25,14 @@
     "title": "Opal Necklace",
     "model": "models/on.glb",
     "images": ["images/opal_1.jpg", "images/opal_2.jpg"],
-    "text": "<p>Many of the modeling projects I work on are primarily focused on technical design. Fit, function, and efficiency are generally far more crucial considerations when compared to aesthetics. However, I had much more artistic liberty when I decided to design a pendant as a gift for my girlfriend. This was a first for me, as was the method of production - the online service provided by Shapeways. After I created the model, it was sent to their facility and 3D printed in wax, then cast in silver. But most importantly, this project was a learning experience for me, as I got my first glimpse at creating somewhat organic structures in SolidWorks.</p>",
+    "text": "<p>Many of the modeling projects I work on are primarily focused on technical design. Fit, function, and efficiency are generally far more crucial considerations when compared to aesthetics. However, I had much more artistic liberty when I decided to design a pendant as a gift for my girlfriend. This freedom was a first for me, as was the method of production. Rather than manufacture the pendant myself, I tried the online manufacturing service provided by Shapeways.</p>\n\n<p>After I created the model, it was sent to their facility and 3D printed in wax, before being cast out of silver. As I did not have access to my forge or workshop at the time, Shapeways was my only way to create parts out of metal. This was an excellent learning experience for me, as I got my first chance to create organic structures in SolidWorks and try new features. It also proved to me the viability of using online manufacturing, which greatly expands the variety of things I can make. But most importantly, once combined with a small opal, it made a great christmas present which continues to see use.</p>",
     "category": ["CAD", "Manufacturing"]
   },
   "tourniquet": {
     "title": "Tourniquet",
     "model": "",
     "images": ["images/tourniquet_1.jpg"],
-    "text": "",
+    "text": "<p>Medical supplies have always been of particular interest to me, owing to their sheer importance. Medical response is a vital task, and I have learned through my first aid courses that proper equipment and training can quite literally save a life. However, many medical devices are beyond the capacity of hobbyist manufacture due to the stringent sterilization, tolerance, and testing requirements. Therefore, when I heard about <a href=”https://glia.org/” target=”_blank”>Glia</a> 3D printing medical supplies, I was extremely intrigued.</p>\n\n<p>After emailing one of the doctors in the group, I was linked to their files for a partially 3D printed tourniquet. A tourniquet is a device which cuts off blood flow to a limb, stopping severe bleeding. I did not have one in my first aid kit, and while they are a niche item, they can sometimes be the only solution to sever limb trauma. I therefore set about purchasing the necessary fabrics and setting the models to print. I modified and strengthened the models to print with a different material (PLA instead of ABS), and made some concessions while sewing. However, the end result seems to function perfectly. While I hope that I will never need to use it, it’s good to know that some medical equipment can be improvised, should the need arise.</p>",
     "category": ["Manufacturing"]
   },
   "faceShields": {

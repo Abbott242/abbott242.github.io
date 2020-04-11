@@ -101,7 +101,7 @@ img.card-img-top {
 .card-title {
     font-size: 2.2em;
     padding-bottom: 0.4em;
-    box-shadow: 0 0.2em #000;
+    box-shadow: 0 0.2em #212529;
 }
 
 .card-body {
@@ -126,7 +126,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     height: .5rem;
-    background-color:#000;
+    background-color:#212529;
     opacity: 1;
 }
 
@@ -280,26 +280,26 @@ ul.social-network li {
 }
 
 .heading-main {
-    font-size: 5em;
+    font-size: 4em;
 }
 
 
 @media screen and (min-width: 1400px) {
     .heading-main{
-        font-size: 5em;
+        font-size: 4em;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .heading-main {
-        font-size: 4em;
+        font-size: 3em;
         padding-left: 0 !important;
     }
 }
 
 @media screen and (max-width: 600px) {
     .heading-main {
-        font-size: 3em;
+        font-size: 2em;
         text-align: left;
         padding-left: 0 !important;
     }
