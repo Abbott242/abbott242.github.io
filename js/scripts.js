@@ -96,11 +96,10 @@ function getRandomInt(max) {
 }
 
 $(document).ready(function () {
-    let i;
     let image;
     let imageH;
     let inum;
-    for (i in teaProjects) {
+    for (let i in teaProjects) {
         if (teaProjects[i]['model'].length === 0) {
             inum = getRandomInt(teaProjects[i]['images'].length);
             imageH = teaProjects[i]['images'][inum];
