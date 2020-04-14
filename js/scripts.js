@@ -96,17 +96,17 @@ function getRandomInt(max) {
 }
 
 $(document).ready(function () {
-    for (let i in teaProjects) {
-        if (teaProjects[i]['model'].length === 0) {
-            var inum = getRandomInt(teaProjects[i]['images'].length);
-            var imageH = teaProjects[i]['images'][inum];
+    Object.keys(teaProjects).forEach(function(key) {
+        if (teaProjects[key]['model'].length === 0) {
+            var inum = getRandomInt(teaProjects[key]['images'].length);
+            var imageH = teaProjects[key]['images'][inum];
             var image = ('<picture>' +
                 '<source srcset="' + imageH + '.webp" type="image/webp" >' +
                 '<source srcset="' + imageH + '" type="image/jpeg">' +
-                '<img class="card-img-top" src="' + imageH + '" alt="' + teaProjects[i]['title'] + '" />' +
+                '<img class="card-img-top" src="' + imageH + '" alt="' + teaProjects[key]['title'] + '" />' +
                 '</picture>');
         } else {
-            image = ('<model-viewer class="card-img-top" src="' + teaProjects[i]['model'] + '" alt="' + teaProjects[i]['title'] + '" auto-rotate\n' +
+            image = ('<model-viewer class="card-img-top" src="' + teaProjects[key]['model'] + '" alt="' + teaProjects[key]['title'] + '" auto-rotate\n' +
                 '                              camera-controls interaction-prompt="none" interaction-policy="allow-when-focused"></model-viewer>\n')
         }
         $('.owl-carousel').append('<!--OWL Card Item-->' +
@@ -114,14 +114,14 @@ $(document).ready(function () {
             '            <div class="card-background">\n' + image +
             '            </div>\n' +
             '            <div class="card-body">\n' +
-            '                <h5 class="card-title">' + teaProjects[i]['title'] + '</h5>\n' +
-            '                <p>' + truncate(teaProjects[i]['text'], 55) +
+            '                <h5 class="card-title">' + teaProjects[key]['title'] + '</h5>\n' +
+            '                <p>' + truncate(teaProjects[key]['text'], 55) +
             '                ...</p>\n' +
-            '                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="' + i + '">Read more</button>\n' +
+            '                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="' + key + '">Read more</button>\n' +
             '            </div>\n' +
-            '        </div>'
-        )
-    }
+            '        </div>');
+        console.log(key, teaProjects[key]);
+    });
 });
 
 $(document).ready(function() {
