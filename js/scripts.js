@@ -107,7 +107,7 @@ $(document).ready(function () {
                 '</picture>');
         } else {
             image = ('<model-viewer class="card-img-top" src="' + teaProjects[key]['model'] + '" alt="' + teaProjects[key]['title'] + '" auto-rotate\n' +
-                '                              camera-controls interaction-prompt="none" interaction-policy="allow-when-focused"></model-viewer>\n')
+                '                              camera-controls interaction-prompt="none" interaction-policy="always-allow" ar></model-viewer>\n')
         }
         $('.owl-carousel').append('<!--OWL Card Item-->' +
             '       <div class="item card">\n' +
